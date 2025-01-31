@@ -196,7 +196,7 @@ WorldStaticModel=NFLPack,
 
 item NFLPackGold
 {
-DisplayName=NFL Trading Card Pack Gold,
+DisplayName=NFL Card Pack Gold,
 Icon=NFLPackGold,
 Weight=0.1,
 Type=Normal,
