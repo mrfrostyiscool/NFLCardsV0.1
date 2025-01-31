@@ -1,0 +1,161 @@
+module NFLCards
+{
+imports
+{
+Base
+}
+
+model AdrianPeterson
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/AdrianPeterson,
+scale=0.5,
+}
+
+model TomBrady
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/TomBrady,
+scale=0.5,
+}
+
+model AJBrown
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/AJBrown,
+scale=0.5,
+}
+
+model BijanRobinson
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/BijanRobinson,
+scale=0.5,
+}
+
+model JoeBurrow
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/JoeBurrow,
+scale=0.5,
+}
+
+model JustinJefferson
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/JustinJefferson,
+scale=0.5,
+}
+
+model DavanteAdams
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/DavanteAdams,
+scale=0.5,
+}
+
+model DerrickHenry
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/DerrickHenry,
+scale=0.5,
+}
+
+model JoshAllen
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/JoshAllen,
+scale=0.5,
+}
+
+model TravisKelce
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/TravisKelce,
+scale=0.5,
+}
+
+model TyreekHill
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/TyreekHill,
+scale=0.5,
+}
+
+model ChristainMcCaffrey
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/ChristainMcCaffrey,
+scale=0.5,
+}
+
+model DKMetcalf
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/DKMetcalf,
+scale=0.5,
+}
+
+model GeorgeKittle
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/GeorgeKittle,
+scale=0.5,
+}
+
+model JoeMontana
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/JoeMontana,
+scale=0.5,
+}
+
+model LamarJackson
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/LamarJackson,
+scale=0.5,
+}
+
+model MikeEvans
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/MikeEvans,
+scale=0.5,
+}
+
+model PukaNacua
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/PukaNacua,
+scale=0.5,
+}
+
+model RandyMoss
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/RandyMoss,
+scale=0.5,
+}
+
+model TuckerKraft
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/TuckerKraft,
+scale=0.5,
+}
+
+model nflcardpack
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/nflcardpack,
+scale=0.55,
+}
+
+model nflpackgold
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/nflpackgold,
+scale=0.55,
+}
+}

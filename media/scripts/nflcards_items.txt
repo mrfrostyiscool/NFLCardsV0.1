@@ -1,0 +1,232 @@
+module NFLCards
+{
+imports
+{
+Base
+}
+
+item AdrianPeterson
+{
+DisplayName=Adrian Peterson - RB #28,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=AdrianPeterson,
+}
+
+item TomBrady
+{
+DisplayName=Tom Brady - QB #12,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=TomBrady,
+}
+
+item AJBrown
+{
+DisplayName=AJ Brown - WR #11,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=AJBrown,
+}
+
+item BijanRobinson
+{
+DisplayName=Bijan Robinson - RB #7,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=BijanRobinson,
+}
+
+item JoeBurrow
+{
+DisplayName=Joe Burrow - QB #9,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=JoeBurrow,
+}
+
+item JustinJefferson
+{
+DisplayName=Justin Jefferson - WR #18,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=JustinJefferson,
+}
+
+item DavanteAdams
+{
+DisplayName=Davante Adams - WR #17,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=DavanteAdams,
+}
+
+item DerrickHenry
+{
+DisplayName=Derrick Henry - RB #22,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=DerrickHenry,
+}
+
+item JoshAllen
+{
+DisplayName=Josh Allen - QB #17,
+Icon=JoshAllen,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=JoshAllen,
+}
+
+item TravisKelce
+{
+DisplayName=Travis Kelce - TE #87,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=TravisKelce,
+}
+
+item TyreekHill
+{
+DisplayName=Tyreek Hill - WR #10,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=TyreekHill,
+}
+
+item ChristainMcCaffrey
+{
+DisplayName=Christain McCaffrey - RB #23,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=ChristainMcCaffrey,
+}
+
+item DKMetcalf
+{
+DisplayName=DK Metcalf - WR #14,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=DKMetcalf,
+}
+
+item GeorgeKittle
+{
+DisplayName=George Kittle - TE #85,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=GeorgeKittle,
+}
+
+item JoeMontana
+{
+DisplayName=Joe Montana - QB #16,
+Icon=JNFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=JoeMontana,
+}
+
+item LamarJackson
+{
+DisplayName=Lamar Jackson - QB #8,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=LamarJackson,
+}
+
+item MikeEvans
+{
+DisplayName=Mike Evans - WR #13,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=MikeEvans,
+}
+
+item PukaNacua
+{
+DisplayName=Puka Nacua - WR #17,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=PukaNacua,
+}
+
+item RandyMoss
+{
+DisplayName=Randy Moss - WR #84,
+Icon=RNFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=RandyMoss,
+}
+
+item TuckerKraft
+{
+DisplayName=Tucker Kraft - TE #85,
+Icon=NFLPack_Back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=TuckerKraft,
+}
+
+item NFLPack
+{
+DisplayName=NFL Card Pack,
+Icon=NFLPack,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=NFLPack,
+}
+
+item NFLPackGold
+{
+DisplayName=NFL Trading Card Pack Gold,
+Icon=NFLPackGold,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=NFLPackGold,
+}
+
+item cardpack_trash
+{
+DisplayName=Empty Card Pack Wrapper,
+Icon=cardpack_trash,
+Weight=0.03,
+Type=Normal,
+}
+
+recipe Open NFL Pack
+{
+NFLpack,
+Result:cardpack_trash,
+OnCreate:openNFLPack,
+Time:15.0,
+Category:Cooking,
+}
+
+
+recipe Open NFL Pack
+{
+NFLPackGold,
+Result:cardpack_trash,
+OnCreate:openNFLPackGold,
+Time:15.0,
+Category:Cooking,
+}
+}
