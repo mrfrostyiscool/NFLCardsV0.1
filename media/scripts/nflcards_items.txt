@@ -197,7 +197,7 @@ WorldStaticModel=NFLPack,
 item NFLPackGold
 {
 DisplayName=NFL Card Pack Gold,
-Icon=NFLPackGold,
+Icon=NFLPackGold1,
 Weight=0.1,
 Type=Normal,
 WorldStaticModel=NFLPackGold,

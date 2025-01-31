@@ -39,7 +39,7 @@ local roll=ZombRand(0,#card_rare)
 player:getInventory():AddItem(card_rare[roll+1])
 end
     
-function openNFLPackGold(items, result, player)
+function openNFL_Pack_Gold(items, result, player)
 local roll=ZombRand(0,#card_rare)
 player:getInventory():AddItem(card_rare[roll+1])
 local roll=ZombRand(0,#card_epic)

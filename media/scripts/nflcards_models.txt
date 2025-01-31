@@ -82,10 +82,10 @@ texture=WorldItems/TyreekHill,
 scale=0.5,
 }
 
-model ChristainMcCaffrey
+model ChristianMcCaffrey
 {
 mesh=WorldItems/CreditCard,
-texture=WorldItems/ChristainMcCaffrey,
+texture=WorldItems/ChristianMcCaffrey,
 scale=0.5,
 }
 
