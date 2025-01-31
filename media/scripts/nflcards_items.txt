@@ -80,7 +80,7 @@ WorldStaticModel=DerrickHenry,
 item JoshAllen
 {
 DisplayName=Josh Allen - QB #17,
-Icon=JoshAllen,
+Icon=NFLPack_Back,
 Weight=0.01,
 Type=Normal,
 WorldStaticModel=JoshAllen,
@@ -104,13 +104,13 @@ Type=Normal,
 WorldStaticModel=TyreekHill,
 }
 
-item ChristainMcCaffrey
+item ChristianMcCaffrey
 {
-DisplayName=Christain McCaffrey - RB #23,
+DisplayName=Christian McCaffrey - RB #23,
 Icon=NFLPack_Back,
 Weight=0.01,
 Type=Normal,
-WorldStaticModel=ChristainMcCaffrey,
+WorldStaticModel=ChristianMcCaffrey,
 }
 
 item DKMetcalf
@@ -134,7 +134,7 @@ WorldStaticModel=GeorgeKittle,
 item JoeMontana
 {
 DisplayName=Joe Montana - QB #16,
-Icon=JNFLPack_Back,
+Icon=NFLPack_Back,
 Weight=0.01,
 Type=Normal,
 WorldStaticModel=JoeMontana,
@@ -170,7 +170,7 @@ WorldStaticModel=PukaNacua,
 item RandyMoss
 {
 DisplayName=Randy Moss - WR #84,
-Icon=RNFLPack_Back,
+Icon=NFLPack_Back,
 Weight=0.01,
 Type=Normal,
 WorldStaticModel=RandyMoss,
@@ -213,7 +213,7 @@ Type=Normal,
 
 recipe Open NFL Pack
 {
-NFLpack,
+NFLPack,
 Result:cardpack_trash,
 OnCreate:openNFLPack,
 Time:15.0,
@@ -221,7 +221,7 @@ Category:Cooking,
 }
 
 
-recipe Open NFL Pack
+recipe Open NFL Pack Gold
 {
 NFLPackGold,
 Result:cardpack_trash,

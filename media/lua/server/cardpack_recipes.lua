@@ -2,7 +2,7 @@ local card_common={
 "NFLCards.AJBrown",
 "NFLCards.BijanRobinson",
 "NFLCards.DavanteAdams",
-"NFLCards.ChristainMcCaffrey",
+"NFLCards.ChristianMcCaffrey",
 "NFLCards.DKMetcalf",
 "NFLCards.GeorgeKittle",
 }

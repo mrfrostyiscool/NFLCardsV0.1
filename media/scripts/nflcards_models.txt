@@ -145,10 +145,10 @@ texture=WorldItems/TuckerKraft,
 scale=0.5,
 }
 
-model NFLCardPack
+model NFLPack
 {
 mesh=WorldItems/CreditCard,
-texture=WorldItems/NFLCardPack,
+texture=WorldItems/NFLPack,
 scale=0.55,
 }
 
